@@ -1,3 +1,5 @@
+for MERN version redirect too: [merngittree](https://github.com/sachinz98/merngittree)
+
 # GitTree  _(GitHub Repository Structure & Size Analyzer)_
 
 A full-stack developer utility built with **Java, Spring Boot, React, and Docker**. Paste any public GitHub repository URL to inspect its full directory hierarchy with proper ASCII tree connectors (`├──`, `└──`, `│`), recursive folder sizes, individual file sizes, and total repository size—ready to copy as Markdown for documentation.

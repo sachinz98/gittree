@@ -1,4 +1,4 @@
-for MERN version redirect too: [merngittree](https://github.com/sachinz98/merngittree)
+for MERN version redirect to: [merngittree](https://github.com/sachinz98/merngittree)
 
 # GitTree  _(GitHub Repository Structure & Size Analyzer)_
 

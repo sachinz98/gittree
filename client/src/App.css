@@ -1,0 +1,173 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f6f8fa;
+  color: #24292f;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.app-container {
+  max-width: 860px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1f2328;
+}
+
+.header p {
+  color: #656d76;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  background-color: #ffffff;
+  border: 1px solid #d0d7de;
+  color: #24292f;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.search-form input::placeholder {
+  color: #8c959f;
+}
+
+.search-form input:focus {
+  outline: none;
+  border-color: #0969da;
+  box-shadow: 0 0 0 2px rgba(9, 105, 218, 0.12);
+}
+
+.url-input {
+  flex: 3;
+}
+
+.branch-input {
+  flex: 1;
+}
+
+.btn {
+  background-color: #1f883d;
+  color: #ffffff;
+  border: 1px solid rgba(31, 35, 40, 0.15);
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  background-color: #1a7f37;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-copy {
+  background-color: #f6f8fa;
+  color: #24292f;
+  border: 1px solid #d0d7de;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.btn-copy:hover {
+  background-color: #eaeef2;
+}
+
+.error-box {
+  background-color: #ffebe9;
+  border: 1px solid #ff8182;
+  color: #cf222e;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.tree-card {
+  background-color: #ffffff;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tree-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #f6f8fa;
+  border-bottom: 1px solid #d8dee4;
+  font-size: 0.9rem;
+}
+
+.tree-body {
+  padding: 14px 16px;
+  font-family: 'Cascadia Code', 'Fira Code', Consolas, monospace;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  overflow-x: auto;
+}
+
+.tree-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.tree-row:hover {
+  background-color: #f6f8fa;
+}
+
+.tree-left {
+  white-space: pre;
+}
+
+.tree-prefix {
+  color: #8c959f;
+}
+
+.folder-name {
+  color: #0969da;
+  font-weight: 600;
+}
+
+.file-name {
+  color: #24292f;
+}
+
+.tree-size {
+  color: #656d76;
+  font-size: 0.82rem;
+  margin-left: 24px;
+  white-space: nowrap;
+}

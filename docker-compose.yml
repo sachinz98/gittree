@@ -1,0 +1,15 @@
+services:
+  backend:
+    build: .
+    container_name: gittree-backend
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build: ./client
+    container_name: gittree-frontend
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    depends_on:
+      - backend
